@@ -1,0 +1,12 @@
+.result-layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: end;
+}
+.result-layout.success{
+    position: relative;
+}
+.result-layout.fail{
+    gap: 2em;
+}
